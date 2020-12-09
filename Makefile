@@ -1,3 +1,5 @@
+deploy: all publish
+
 all: clean compile package
 
 clean:
@@ -11,3 +13,6 @@ compile:
 
 package:
 	cd build && vsce package
+
+publish:
+	cd build && vsce publish
