@@ -1,0 +1,20 @@
+{
+    "name": "dark-pastels-remix",
+    "displayName": "Dark+ Pastels Remix",
+    "description": "Dark+ theme with syntax highlight colors rearranged and supplemented with additional subdued colors.",
+    "publisher": "daydev",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/daydev/vscode-dark-remix.git"
+	},
+    "contributes": {
+        "themes": []
+    }
+}

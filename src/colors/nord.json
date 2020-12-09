@@ -1,0 +1,22 @@
+{
+    "#name": "Dark+ Remix (Nord)",
+    "#black": "#1e1e1e",
+    "#white": "#d4d4d4",
+    "#white+": "#fdf6e3",
+    "#grey": "#4c566a",
+    "#grey-": "#2e3440",
+    "#grey+": "#93A1A1",
+    "#red": "#bf616a",
+    "#red+": "#dc322f",
+    "#green": "#a3be8c",
+    "#green+": "#50fa7b",
+    "#blue": "#5e81ac",
+    "#blue+": "#268bd2",
+    "#orange": "#d08770",
+    "#olive": "#859900",
+    "#yellow": "#ebcb8b",
+    "#teal": "#2aa198",
+    "#cyan": "#88c0d0",
+    "#violet": "#b48ead",
+    "#magenta": "#d33682"
+}

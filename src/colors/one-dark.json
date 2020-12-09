@@ -1,0 +1,22 @@
+{
+    "#name": "Dark+ Remix (One Dark)",
+    "#black": "#1e1e1e",
+    "#white": "#d4d4d4",
+    "#white+": "#fdf6e3",
+    "#grey": "#7F848E",
+    "#grey-": "#002b36",
+    "#grey+": "#93A1A1",
+    "#red": "#E06C75",
+    "#red+": "#dc322f",
+    "#green": "#98C379",
+    "#green+": "#50fa7b",
+    "#blue": "#569CD6",
+    "#blue+": "#268bd2",
+    "#orange": "#CE9178",
+    "#olive": "#859900",
+    "#yellow": "#e5c07b",
+    "#teal": "#2aa198",
+    "#cyan": "#9CDCFE",
+    "#violet": "#C586C0",
+    "#magenta": "#d33682"
+}
