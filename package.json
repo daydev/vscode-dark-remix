@@ -3,7 +3,7 @@
     "displayName": "Dark Pastels Remix",
     "description": "Dark+ theme with syntax highlight colors rearranged and supplemented with additional subdued colors.",
     "publisher": "daydev",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "engines": {
         "vscode": "^1.51.0"
     },

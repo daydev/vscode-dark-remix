@@ -16,7 +16,6 @@ def apply_colors(template, colors):
     else:
         return template
 
-# comentario
 def compile_variants():
     with open('package.json') as manifest:
         manifest = json.load(manifest)

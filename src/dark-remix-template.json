@@ -89,7 +89,7 @@
 				"markup.changed.git_gutter"
 			],
 			"settings": {
-				"foreground": "#yellow"
+				"foreground": "#yellow+"
 			}
 		},
 		{
@@ -99,7 +99,7 @@
 				"markup.inserted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#green-"
+				"foreground": "#green+"
 			}
 		},
 		{
