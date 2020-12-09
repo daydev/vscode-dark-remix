@@ -4,6 +4,15 @@ All notable changes to the "dark-nord-remix" extension will be documented in thi
 
 This project follows the [Keep a Changelog](http://keepachangelog.com/) format.
 
+## [0.1.2] - 2020-12-09
+### Added
+- Extension icon;
+- License.
+
+### Changed
+- "Dark+" in the name to "Dark";
+- Improved extension metadata.
+
 ## [0.1.1] - 2020-12-09
 ### Fixed
 - Fixed build and publication process
