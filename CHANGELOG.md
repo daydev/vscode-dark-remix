@@ -4,6 +4,10 @@ All notable changes to the "dark-nord-remix" extension will be documented in thi
 
 This project follows the [Keep a Changelog](http://keepachangelog.com/) format.
 
+## [0.1.4] - 2020-12-10
+### Added
+- Information on customisation to the README.
+
 ## [0.1.3] - 2020-12-09
 ### Changed
 - Small tweaks and fixes of the version control highlighting.
