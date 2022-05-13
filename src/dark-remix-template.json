@@ -37,7 +37,13 @@
 		"terminal.ansiBrightBlue": "#blue+",
 		"terminal.ansiBrightMagenta": "#magenta",
 		"terminal.ansiBrightCyan": "#cyan",
-		"terminal.ansiBrightWhite": "#white+"
+		"terminal.ansiBrightWhite": "#white+",
+		"editorBracketHighlight.foreground1": "#grey+",
+		"editorBracketHighlight.foreground2": "#yellow",
+		"editorBracketHighlight.foreground3": "#green",
+		"editorBracketHighlight.foreground4": "#blue",
+		"editorBracketHighlight.foreground5": "#violet",
+		"editorBracketHighlight.foreground6": "#red"
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
@@ -64,7 +70,11 @@
 				"source.js constant.other.object.key.js string.unquoted.label.js",
 				"meta.separator",
 				"meta.brace",
-				"storage.type.function.arrow"
+				"storage.type.function.arrow",
+				"punctuation.definition.tag",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
 				"foreground": "#grey+"
@@ -165,7 +175,7 @@
 				"constant.other.color",
 				"variable.other.constant",
 				"variable.other.enummember",
-					"storage.type.format"
+				"storage.type.format"
 			],
 			"settings": {
 				"foreground": "#magenta"
@@ -358,10 +368,6 @@
 			"name": "Tags, HTML, XML, etc.",
 			"scope": [
 				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"entity.name.tag",
 				"meta.tag.sgml"
 			],

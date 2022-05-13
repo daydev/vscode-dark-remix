@@ -30,7 +30,7 @@ Specifically, to override syntax highlight colors, add a section like this:
                     "punctuation.definition.tag.end.html"
                 ],
                 "settings": { // Override style
-                    "foreground": "#93A1A1"
+                    "foreground": "#ebcb8b"
                 }
             },
             {
@@ -41,7 +41,7 @@ Specifically, to override syntax highlight colors, add a section like this:
 }
 ```
 
-The example above would change the color of the angle brackets on tags to be the same as regular punctuation in the Nord variant theme. To find out what scope something is, open the Command Palette and find "Developer: Inspect Editor Tokens and Scopes". While active, whatever the cursor is on will show its scopes and the currently applied style rule. The custom rules in the settings override the theme rules, and in a case of conflicting scopes in the settings, more specific scopes take precedence over more general ones. E.g. a rule for `punctuation.definition.tag` would override a `punctuation.defintion` rule.
+The example above would change the color of the angle brackets on tags to be the same as the tag text in the Nord variant theme. To find out what scope something is, open the Command Palette and find "Developer: Inspect Editor Tokens and Scopes". While active, whatever the cursor is on will show its scopes and the currently applied style rule. The custom rules in the settings override the theme rules, and in a case of conflicting scopes in the settings, more specific scopes take precedence over more general ones. E.g. a rule for `punctuation.definition.tag` would override a `punctuation.defintion` rule.
 
 There can also be [semantic highlight rules](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#theming) that have slightly different format (see the link). They seem to be rarely used (including in this extension), as they can just fall back onto the regular style rules as described, no need to duplicate styles. They can be overriden in a similar way. Put the overrides into `editor.semanticTokenColorCustomizations` property and follow the format in the documentation.   
 
@@ -64,6 +64,8 @@ Not a strict technical specification, but a general idea of what kinds of color 
 - Annotations and decorators: #olive 
 - Classes and types: light green (#green)
 - Fields and properties: dark blue (#blue)
+
+If bracket pair colorization is enabled, bracket pairs are highlighted in the following coloring order: #grey+, #yellow, #green, #blue, #violet, #red.
 
 ### Terminal colors
 

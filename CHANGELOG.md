@@ -4,6 +4,13 @@ All notable changes to the "dark-nord-remix" extension will be documented in thi
 
 This project follows the [Keep a Changelog](http://keepachangelog.com/) format.
 
+## [0.2.0] - 2022-05-13
+### Added
+- Rules for bracket pair colorization
+
+### Changed
+- Angle brackets on HTML/XML tags now colored as punctuation/operators
+
 ## [0.1.4] - 2020-12-10
 ### Added
 - Information on customisation to the README.
